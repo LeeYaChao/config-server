@@ -13,7 +13,7 @@ spring:
     #password: guest
   redis:
     database: 1 #索引（默认为0）
-    host: localhost #地址
+    host: 192.168.0.108 #地址
     port: 6379 #端口号
 lyc:
   security:
