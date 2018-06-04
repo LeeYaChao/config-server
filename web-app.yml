@@ -3,10 +3,3 @@ server:
 spring:
   application:
     name: app-web
-#注册中心
-eureka:
-  instance:
-    instance-id: ${spring.application.name}
-  client:
-     serviceUrl:
-        defaultZone: http://localhost:9000/eureka
