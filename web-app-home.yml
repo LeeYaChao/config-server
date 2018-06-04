@@ -1,4 +1,6 @@
 spring:
+  session:
+    store-type: redis
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     username: root
