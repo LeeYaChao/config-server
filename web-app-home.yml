@@ -7,14 +7,14 @@ spring:
   jpa:
     show-sql: true
   rabbitmq:
-    host: 192.168.0.108
+    host: 192.168.0.109
     port: 5672
     username: guest
     password: guest
   redis:
     database: 1 #索引（默认为0）
-    host: 192.168.0.108 #地址
-    port: 6699 #端口号
+    host: 192.168.0.109 #地址
+    port: 6379 #端口号
 lyc:
   security:
     browser:
