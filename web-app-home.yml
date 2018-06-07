@@ -14,7 +14,7 @@ spring:
   redis:
     database: 1 #索引（默认为0）
     host: 192.168.0.109 #地址
-    port: 6699 #端口号
+    port: 6379 #端口号
 lyc:
   security:
     browser:
